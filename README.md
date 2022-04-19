@@ -11,5 +11,12 @@ We are creating an electronic payment system that will work with our currency ("
 ## Main clauses
 
 To get started, the user must register by entering their data. After that, his data is transferred to the administrator for verification, who can accept the user or reject the application. If the application to create an account is rejected, the user can make changes to their data and submit a request for a review of the case. After the user's approval, he can use the account.
+
 The administrator can also block the selected user at any time.
+
 The user can add some personal information, as well as change it. The main functionality of the user is to replenish their own balance with our jit-coin currency and transfer the selected amount to another user from a personal account.
+
+## Contributors
+* [Dmitriev Dmytro](https://github.com/dirayser) [(telegram)](https://t.me/dirayser)
+* [Zehelman Mark](https://github.com/zemark-prog) [(telegram)](https://t.me/zemark_ua)
+* [Zavodovska Elizavieta](https://github.com/zavad4) [(telegram)](https://t.me/zavad4)
