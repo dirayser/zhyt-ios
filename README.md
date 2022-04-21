@@ -24,7 +24,8 @@ The user can add some personal information, as well as change it. The main funct
 * Sequelize
 
 **iOS Front:**
-* SwiftUIKit
+* Swift
+* UIKit
 * RxSwift
 * Alamofire
 
