@@ -16,13 +16,14 @@ The administrator can also block the selected user at any time.
 
 The user can add some personal information, as well as change it. The main functionality of the user is to replenish their own balance with our zhyt-coin currency and transfer the selected amount to another user from a personal account.
 
-##Tech stack
-**Backend: **
+## Tech stack
+**Backend:**
 * Node.js
+* MySQL
 * Express
 * Sequelize
 
-**iOS Front: **
+**iOS Front:**
 * SwiftUIKit
 * RxSwift
 * Alamofire
