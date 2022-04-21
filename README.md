@@ -8,6 +8,9 @@ We are creating an electronic payment system that will work with our currency ("
 
 ![zhyt-coin](https://user-images.githubusercontent.com/54912616/163831250-e49168c8-bfee-4113-bc1f-ff559b081aa8.jpg)
 
+## userflow
+![userflow_zhyt](https://user-images.githubusercontent.com/54912616/164428262-8f1af5b4-ca03-4a6b-8821-223d9a916511.png)
+
 ## Main clauses
 
 To get started, the user must register by entering their data. After that, his data is transferred to the administrator for verification, who can accept the user or reject the application. If the application to create an account is rejected, the user can make changes to their data and submit a request for a review of the case. After the user's approval, he can use the account.
