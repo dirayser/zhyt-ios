@@ -23,8 +23,8 @@ The user can add some personal information, as well as change it. The main funct
 **Backend:**
 * Node.js
 * MySQL
-* Express
-* Sequelize
+* Fastify
+* Knex.js
 
 **iOS Front:**
 * Swift
