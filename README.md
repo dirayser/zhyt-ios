@@ -9,7 +9,7 @@ We are creating an electronic payment system that will work with our currency ("
 ![zhyt-coin](https://user-images.githubusercontent.com/54912616/163831250-e49168c8-bfee-4113-bc1f-ff559b081aa8.jpg)
 
 ## userflow
-![userflow_zhyt](https://user-images.githubusercontent.com/54912616/164428262-8f1af5b4-ca03-4a6b-8821-223d9a916511.png)
+![userflow_zhyt](https://user-images.githubusercontent.com/54912616/164770419-4110d92b-c577-4966-a964-2d6139e3337f.png)
 
 ## Main clauses
 
