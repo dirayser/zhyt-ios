@@ -48,7 +48,7 @@ enum ContainerConfigurator {
     }
     
     static func registerViewModels(inContainer c: DependencyContainer) {
-         c.register(.unique) { StartUpViewModel(sessionService: try c.resolve()) as StartUpViewModelProtocol }
+        c.register(.unique) { StartUpViewModel(sessionService: try c.resolve()) as StartUpViewModelProtocol }
         c.register(.unique) { AuthViewModel(mapper: try c.resolve(), services: try c.resolve()) as AuthViewModelProtocol }
     }
     
