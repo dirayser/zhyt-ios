@@ -7,41 +7,34 @@
 
 import Foundation
 import RxSwift
-import FirebaseAuth
 
 protocol AuthServiceProtocol {
     
-    var currentUser: FirebaseAuth.User? { get }
-    func getAuthorizationStatus() -> Single<(Auth, FirebaseAuth.User?)>
-    func signIn(with googleCredentials: AuthCredential) -> Single<(AuthDataResult?, Error?)>
+    func getAuthorizationStatus() -> Single<User?>
+    func signIn(with login: String, password: String) -> Single<(User?, Error?)>
     func signOut()
     
 }
 
 class AuthService: AuthServiceProtocol {
     
-    var currentUser: FirebaseAuth.User? { Auth.auth().currentUser }
-    
-    func getAuthorizationStatus() -> Single<(Auth, FirebaseAuth.User?)> {
+    func getAuthorizationStatus() -> Single<User?> {
         return Single.create { event -> Disposable in
-            Auth.auth().addStateDidChangeListener { (auth, user) in
-                event(.success((auth, user)))
-            }
+            event(.success(nil))
             return Disposables.create()
         }
     }
     
-    func signIn(with credentials: AuthCredential) -> Single<(AuthDataResult?, Error?)> {
+    func signIn(with login: String, password: String) -> Single<(User?, Error?)> {
         return Single.create { event -> Disposable in
-            Auth.auth().signIn(with: credentials) { authResult, error in
-                event(.success((authResult, error)))
-            }
+            let user = User()
+            event(.success((user, nil)))
             return Disposables.create()
         }
     }
     
     func signOut() {
-        try? Auth.auth().signOut()
+       
     }
     
 }

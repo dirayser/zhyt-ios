@@ -11,22 +11,22 @@ import RxRelay
 
 protocol SessionServiceProtocol {
     
-    var user: BehaviorRelay<FirebaseAuth.User?> { get }
-    func setup(user: FirebaseAuth.User)
+    var user: BehaviorRelay<User?> { get }
+    func setup(user: User)
     func logout()
     
 }
 
 class SessionService: BaseService, SessionServiceProtocol {
     
-    let user: BehaviorRelay<FirebaseAuth.User?> = .init(value: nil)
+    let user: BehaviorRelay<User?> = .init(value: nil)
     let authService: Injected<AuthServiceProtocol> = .init()
     
     override init() {
         super.init()
     }
     
-    func setup(user: FirebaseAuth.User) {
+    func setup(user: User) {
         self.user.accept(user)
     }
     

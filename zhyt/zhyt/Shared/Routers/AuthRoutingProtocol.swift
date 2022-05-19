@@ -29,7 +29,7 @@ extension BaseRouting: AuthRoutingProtocol {
     }
     
     func routeToMain(animated: Bool) {
-        
+        print("Route to Home")
     }
     
 }

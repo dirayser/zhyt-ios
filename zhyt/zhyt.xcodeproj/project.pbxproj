@@ -324,6 +324,7 @@
 		6AA01BEA2804B14C004CB6CA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				6AC74F0E2836C4E400C939AA /* Home */,
 				6AA01BEB2804B15C004CB6CA /* Authorization */,
 			);
 			path = Scenes;
@@ -355,6 +356,13 @@
 				6AA01BF92805E8A1004CB6CA /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6AC74F0E2836C4E400C939AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		7A073145BD253DAE5B7AE608 /* Frameworks */ = {
